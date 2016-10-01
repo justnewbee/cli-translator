@@ -1,0 +1,28 @@
+{
+  "name": "cli-translator",
+  "version": "0.0.1",
+  "description": "ranslate text in command line using apis from youdao, iciba and others",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translate",
+    "cli",
+	"fanyi"
+  ],
+  "bin": {
+    "translate": "./index.js"
+  },
+  "author": "jianchun wang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clui": "^0.3.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.1.2",
+    "inquirer": "^1.1.3",
+    "request": "^2.75.0",
+    "xml2js": "^0.4.17"
+  }
+}
