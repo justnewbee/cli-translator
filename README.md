@@ -3,7 +3,21 @@ ABOUT
 
 CLI (command lint interface) that helps translate input text
 
-i only write this to learn how to write CLI-s with Node.
+> i wrote this to learn how to write CLI-s with Node, but it should perfectly workable.
 
-https://github.com/satrong/node-dict
-https://github.com/CircleSmall/terminal-dict
+# HOW TO USE
+
+install using this command
+
+```bash
+node install -g cli-translator
+```
+
+and use it
+
+```terminal
+translate # will prompty for input
+translate hello # translate english word to chinese
+translate "hello world" # translate english sentence to chinese
+translate 你好 # translate chinese to english
+```
