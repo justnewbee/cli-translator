@@ -1,6 +1,6 @@
 {
 	"name": "cli-translator",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "ranslate text in command line using apis from youdao, iciba and others",
 	"main": "index.js",
 	"scripts": {
