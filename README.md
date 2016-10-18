@@ -3,7 +3,8 @@ ABOUT
 
 CLI (command lint interface) that helps translate input text
 
-> i wrote this to learn how to write CLI-s with Node, but it should perfectly workable.
+> i wrote this to learn how to write CLI-s with Node, but it should be perfectly workable.
+> and i intentionally use as many 3rd-party dependencies as possible.
 
 # HOW TO USE
 
