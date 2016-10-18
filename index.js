@@ -42,18 +42,17 @@ if (commander.dep) {
 	var spinner = new clui.Spinner("正在获取结果");
 	spinner.start();
 	
-	translate(text).then(arr => {
+	translate(text).then(str => {
 		spinner.stop();
 		
-		arr.forEach((v, i) => {
-			if (i > 0) {
-				writeLn();
-			}
-			writeLn(v);
-			writeLn();
-		});
+		writeLn(str);
+//		
+//		arr.forEach((v, i) => {
+//			if (i > 0) {
+//				writeLn();
+//			}
+//			writeLn(str);
+//			writeLn();
+//		});
 	});
-}, err => {
-	console.error(chalk.red(err.message));
-	console.log(err.stack);
 });
